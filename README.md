@@ -1,10 +1,11 @@
-
 # Movie Review Sentiment Analysis
 
 ## Overview
+
 This repository contains a Python-based application for analyzing sentiment in movie reviews using Natural Language Processing (NLP) techniques. It uses the IMDB dataset available in NLTK, Word2Vec for word embeddings, and TextBlob for sentiment analysis. The program preprocesses the text, trains a Word2Vec model, and performs sentiment scoring (positive and negative) on the movie reviews.
 
 ## Features
+
 - Text Preprocessing: Tokenization, stopword removal, and text cleaning.
 - Word2Vec Model: Trains a Word2Vec model on the movie reviews to create word embeddings.
 - Sentiment Analysis: Calculates positivity and negativity scores for each review using TextBlob.
@@ -33,7 +34,7 @@ pip install nltk gensim textblob matplotlib seaborn wordcloud tqdm
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/masood2004/movie_review_sentiment_analysis.git
+git clone https://github.com/masood2004/imdb_sentiment_analysis.git
 cd movie-review-sentiment-analysis
 ```
 
@@ -48,7 +49,6 @@ pip install -r requirements.txt
 ```bash
 python movie_review_sentiment_analysis.py
 ```
-
 
 ## Usage/Examples
 
@@ -65,12 +65,12 @@ This will load the dataset, preprocess the reviews, train a Word2Vec model, and 
 3. Visualization: The program generates word clouds and other visualizations to showcase positive and negative sentiment.
 
 ## Example
+
 To analyze the IMDB movie reviews and visualize sentiment, simply run:
 
 ```bash
 python movie_review_sentiment_analysis.py
 ```
-
 
 ## Dependencies
 
@@ -88,6 +88,7 @@ pip install -r requirements.txt
 ```
 
 ## Contributing
+
 Contributions are welcome! To contribute:
 
 1. Fork the repository.
@@ -98,9 +99,11 @@ Contributions are welcome! To contribute:
 6. Open a pull request.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
+
 For questions or support, feel free to contact:
 
 - Name: Syed Masood Hussain
